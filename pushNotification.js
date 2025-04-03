@@ -15,8 +15,8 @@ async function pushNotification() {
           voucherRedemption: "{\"placeId\":1716,\"placeName\":\"Prae Jecko Gecko Lover\",\"firstName\":\"Tyler\",\"lastName\":\"Lantern\",\"voucherId\":3220,\"status\":\"valid\",\"alertId\":32860,\"voucherCode\":\"VC-Y7D6-JZ42\",\"savedDate\":\"2024-12-11T11:11:47.000Z\",\"usedDate\":\"2024-12-12T04:26:33.000Z\",\"rejectedDate\":null,\"expiredDate\":\"2024-12-31T16:59:59.000Z\",\"voucherTitle\":\"Eat\",\"createdAt\":\"1733977594\"}"
         },
         notification: {
-          title: "Star light",
-          body: "FCKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+          title: title,
+          body: body
         },
         apns: {
           payload: {
